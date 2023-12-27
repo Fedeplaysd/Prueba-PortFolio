@@ -7,14 +7,54 @@
   <title>Document</title>
 </head>
 <body>
-  <header>
-<!---AQUI DEBERIA HABER UNA BARRA DE NAVEGACION, PREFERIBLEMENTE CON UNA IMAGEN LINDA DE UN ANIMAL ANIMADO REFERIDO A LA PROGRAMACION, Y DEL LADO IZQUIERO UN MENU HAMBURGUESA CON UNA DESCRICION QUE DIGA " MENU HAMBURGUESA -> : "-->
-  </header>
-  <main>
-<!---ME GUSTARIA QUE EN ESTE MAIN HAYAN CUATRO CAJAS, UNA ARRIBA CON UNA IMAGEN DE ALGO RELACIONADO CON LA PROGRAMACION, LUEGO ABAJO DE ESO UN TITULO QUE DIGA LA LEYENDA " Bienvenidos a mi pequeño PortFolio!, espero les guste! 🥳 ", LUEGO EN LOS DOS DIVS RESTANTES EN EL PRIMERO DEL LADO IZQUIERDO MI CURRICULUM VITAE EN PDF VISUALIZADO, Y DEL LADO DERECHO LOS CONCEPTOS QUE APRENDI EN TODOS LOS CURSOS QUE HICE-->
-  </main>
-  <footer>
-<!---AQUI EN EL FOOTER ESTARIA BUENO VINCULAR TODOS MIS REDES SOCIALES CON ICONOS RELACIONADOS CON ANIMALES ANIMADOS DEL LADO IZQUIERDO DE LA PANTALLA, Y DEL LADO DERECHO UNA LEYENDA QUE DIGA " Portfolio oficial Federico Pedraza, todos los derechos reservados"-->
-  </footer>
+  <header> 
+    <!---AQUI DEBERIA HABER UNA BARRA DE NAVEGACION, PREFERIBLEMENTE CON UNA IMAGEN LINDA DE UN ANIMAL ANIMADO REFERIDO A LA PROGRAMACION, Y DEL LADO IZQUIERO UN MENU HAMBURGUESA CON UNA DESCRICION QUE DIGA " MENU HAMBURGUESA -> : "   
+    listo?--> 
+      <img src="https://i.ibb.co/625930s/Logo-Federico-Pedraza.png" alt="Logo-Federico-Pedraza" width="100" height="100"> 
+      <nav style="display: flex;">
+        <ul class="listaDeItemsMenu"> 
+          <li><a href="#">Main</a></li> 
+          <li><a href="#">AboutMe</a></li> 
+          <li><a href="#">Courses</a></li> 
+          <li><a href="#">Contact</a></li> 
+        </ul> 
+      </nav> 
+    </header> 
+    <main> 
+    <!---ME GUSTARIA QUE EN ESTE MAIN HAYAN CUATRO CAJAS, UNA ARRIBA CON UNA IMAGEN DE ALGO RELACIONADO CON LA PROGRAMACION, LUEGO ABAJO DE ESO UN TITULO QUE DIGA LA LEYENDA " Bienvenidos a mi pequeño PortFolio!, espero les guste! 🥳 ", LUEGO EN LOS DOS DIVS RESTANTES EN EL PRIMERO DEL LADO IZQUIERDO MI CURRICULUM VITAE EN PDF VISUALIZADO, Y DEL LADO DERECHO LOS CONCEPTOS QUE APRENDI EN TODOS LOS CURSOS QUE HICE--> 
+      <div class="divImagenDeProgramacion"> 
+        <img src="https://i.ibb.co/537226y/programacion.jpg" alt="programacion" width="100%" height="75px"> 
+      </div> 
+      <div class="titulosH1P"> 
+        <h1>Welcome to my little PortFolio!</h1> 
+        <p>I hope you like it!</p> 
+      </div> 
+      <div class="cuadrosCurriculumExperiencia">
+        <div class="curriculumPDF">
+          <iframe src="./img/FedericoPedraza-CV_English_.pdf"></iframe>
+        </div> 
+        <div class="listaExperiencias"> 
+          <ul>
+            <li>HTML: Learned all the basic knowledge, handling of flexbox, grid system, branches, sass, bootstrap. 7.5/10</li>
+            <li>CSS: Learned most of the basic concepts, styles in general, palettes, fonts, use of compilers, basic animations such as gradients. 6/10</li>
+            <li>GIT/GITHUB: Management of git bash, terminal management inside and outside of vs code, creation of branches, commits, pushes. 8/10</li>
+            <li>JAVASCRIPT: Learned basic knowledge of objects, classes, arrays, high priority functions, medium logic. 5/10</li>
+            <li>JAVA: In learning. 0/10</li>
+          </ul>
+        </div> 
+      </div>
+    </main> 
+    <footer> 
+    <!---AQUI EN EL FOOTER ESTARIA BUENO VINCULAR TODOS MIS REDES SOCIALES CON ICONOS RELACIONADOS CON ANIMALES ANIMADOS DEL LADO IZQUIERDO DE LA PANTALLA, Y DEL LADO DERECHO UNA LEYENDA QUE DIGA " Portfolio oficial Federico Pedraza, todos los derechos reservados"--> 
+    <div> 
+      <p>Portfolio oficial Federico Pedraza, todos los derechos reservados</p> 
+    </div>   
+    <div> 
+        <a href=""><img src="" alt="Instagram"></a>
+        <a href=""><img src="" alt="LinkedIn"></a>
+        <a href=""><img src="" alt="GitHub"></a>
+        <a href=""><img src="" alt="WhatsApp"></a>
+      </div>
+    </footer>
 </body>
 </html>

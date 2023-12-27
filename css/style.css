@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  border: transparent;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px black solid;
+  margin-bottom: 2.5px;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 15px;
+}
+li{
+  padding: 1.5px;
+  list-style: none;
+  margin-left: 3.5px;
+  color: black;
+  border: solid 1px black;
+  border-radius: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.listaDeItemsMenu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.divImagenDeProgramacion{
+  margin: 2.5vh;
+}
+.titulosH1P{
+  text-align: center;
+}
+.titulosH1P p {
+  margin: 0.5vh;
+}
+.cuadrosCurriculumExperiencia{
+  display: flex;
+  padding: 2.5px;
+  justify-content: space-between;
+}
+.listaExperiencias{
+  margin-right: 1vh;
+}
+.listaExperiencias li{
+  margin: 1vh;
+  height: 100%;
+  width: 100%;
+}
