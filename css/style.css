@@ -5,7 +5,6 @@
   background-color: antiquewhite;
   border: transparent;
 }
-
 header{
   display: flex;
   justify-content: space-between;
@@ -16,17 +15,19 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: fixed;
-  bottom: 0;
+  align-items: baseline;
+  padding: 1.5rem;
+  position: relative;
+  bottom: auto;
   width: 100%;
-  height: 15px;
+  /*height: 15px;*/
 }
 li{
   padding: 1.5px;
   list-style: none;
   margin-left: 3.5px;
   color: black;
-  border: solid 1px black;
+  border: solid 2px black;
   border-radius: 1.5rem;
   width: 100%;
   text-align: center;
@@ -49,16 +50,29 @@ a{
 .titulosH1P p {
   margin: 0.5vh;
 }
-.cuadrosCurriculumExperiencia{
+.listaExperiencias {
   display: flex;
-  padding: 2.5px;
-  justify-content: space-between;
-}
-.listaExperiencias{
-  margin-right: 1vh;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 .listaExperiencias li{
   margin: 1vh;
-  height: 100%;
-  width: 100%;
+  background-color: beige;
+  font-size: 23px;
+}
+.barraIconosRedes{
+  position: fixed;
+  bottom: 0;
+  gap: 1.5rem;
+}
+.iconosRedes{
+  display: flex;
+  flex-direction: row;
+}
+.iconosRedes img{
+  width: 16vh;
+  height: 10vh;
+  margin: 10px;
 }
